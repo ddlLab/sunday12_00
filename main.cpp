@@ -13,7 +13,7 @@ int main()
     invenory.Add(new eElik());
     invenory.Add(new eScroll());
     invenory.Add(new eScroll());
-    std::ofstream log("log.txt");
+    std::ofstream log("log1.txt");
     log<<invenory.Dump();
     log<<"****************************"<<endl;
     eItemSlot* item = invenory.Get(2);

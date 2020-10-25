@@ -59,3 +59,18 @@
 	"Tri.h"
 	<windows.h>
 
+1603621989 source:d:\repos\inventory.cpp
+	"inventory.h"
+
+1603621989 d:\repos\inventory.h
+	"Tri.h"
+	<vector>
+
+1603621989 d:\repos\tri.h
+	<sstream>
+	<string>
+
+1603621989 source:d:\repos\tri.cpp
+	"Tri.h"
+	<windows.h>
+
