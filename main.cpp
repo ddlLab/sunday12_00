@@ -12,6 +12,7 @@ int main()
     invenory.Add(new eArmor());
     invenory.Add(new eElik());
     invenory.Add(new eScroll());
+    invenory.Add(new eScroll());
     std::ofstream log("log.txt");
     log<<invenory.Dump();
     log<<"****************************"<<endl;

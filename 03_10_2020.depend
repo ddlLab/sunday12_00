@@ -42,3 +42,20 @@
 	"Tri.h"
 	<vector>
 
+1603622132 source:d:\Репоситорий\main.cpp
+	"inventory.h"
+	<iostream>
+	<fstream>
+
+1603621987 d:\Репоситорий\inventory.h
+	"Tri.h"
+	<vector>
+
+1603621987 d:\Репоситорий\tri.h
+	<sstream>
+	<string>
+
+1603621987 source:d:\Репоситорий\tri.cpp
+	"Tri.h"
+	<windows.h>
+

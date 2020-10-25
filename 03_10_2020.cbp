@@ -34,6 +34,8 @@
 		</Compiler>
 		<Unit filename="Tri.cpp" />
 		<Unit filename="Tri.h" />
+		<Unit filename="inventory.cpp" />
+		<Unit filename="inventory.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
