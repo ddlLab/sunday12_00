@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1602791055 source:d:\codeblocks\03_10_2020\main.cpp
+	"Tri.h"
+	<iostream>
+	<vector>
+
+1602791108 d:\codeblocks\03_10_2020\tri.h
+	<iostream>
+
+1602789915 source:d:\codeblocks\03_10_2020\tri.cpp
+	"Tri.h"
+	<windows.h>
+
+1603393028 source:c:\users\Малевичи\desktop\03_10_2020\main.cpp
+	"Tri.h"
+	<iostream>
+	<vector>
+
+1603468036 c:\users\Малевичи\desktop\03_10_2020\tri.h
+	<iostream>
+
+1603467903 source:c:\users\Малевичи\desktop\03_10_2020\tri.cpp
+	"Tri.h"
+	<windows.h>
+
+1603535050 source:f:\c++\den\main.cpp
+	"inventory.h"
+	<iostream>
+
+1603535130 f:\c++\den\tri.h
+	<sstream>
+	<string>
+
+1603535149 source:f:\c++\den\tri.cpp
+	"Tri.h"
+	<windows.h>
+
+1603535071 source:f:\c++\den\inventory.cpp
+	"inventory.h"
+
+1603534861 f:\c++\den\inventory.h
+	"Tri.h"
+	<vector>
+
