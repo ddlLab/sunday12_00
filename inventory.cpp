@@ -7,7 +7,7 @@ void eInventory::Clear()
     {
         delete item;
     }
-    clear();
+    clear();//clear all deleted items
 }
 //----------------------------------
 void eInventory::Add(eItemSlot* _item)
@@ -19,11 +19,11 @@ bool eInventory::Delete(eItemSlot*& _item)
 {
     for(size_t i =0; i < size(); ++i)
     {
-        if(at(i) == _item)
+        if(at(i) == _item) //at working same as [] in array
         {
             delete _item;
             _item = nullptr;
-            erase(begin()+i);
+            erase(begin()+i);//drop in vector item which I delete
             break;
         }
     }
