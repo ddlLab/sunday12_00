@@ -1,24 +1,30 @@
 [
 (Type: WEAPON, Durability: 0, Cost: 0, Phisical damage: 41, Magical damage: 67, Critical damage: 34)
-(Type: ARMOR, Durability: 0, Cost: 0, defence: 0, phisicalResistense: 29, magicResistense: 4)
-(Type: ELIK, Durability: 0, Cost: 0, Give HP: 78, Give Xp: 58, Give Mp: 62)
-(Type: SCROLL, Durability: 0, Cost: 0, Phisical damage: 64, Magical damage: 5, Spacial: FIRE)
-(Type: SCROLL, Durability: 0, Cost: 0, Phisical damage: 81, Magical damage: 27, Spacial: FROST)
+(Type: WEAPON, Durability: 0, Cost: 0, Phisical damage: 0, Magical damage: 69, Critical damage: 124)
+(Type: WEAPON, Durability: 0, Cost: 0, Phisical damage: 78, Magical damage: 58, Critical damage: 262)
+(Type: ARMOR, Durability: 0, Cost: 0, defence: 64, phisicalResistense: 5, magicResistense: 5)
+(Type: ELIK, Durability: 0, Cost: 0, Give HP: 81, Give Xp: 27, Give Mp: 61)
+(Type: SCROLL, Durability: 0, Cost: 0, Phisical damage: 91, Magical damage: 95, Spacial: ELICTRICITY)
+(Type: SCROLL, Durability: 0, Cost: 0, Phisical damage: 27, Magical damage: 36, Spacial: FROST)
 ]
 ****************************
-Type: ELIK, Durability: 0, Cost: 0, Give HP: 78, Give Xp: 58, Give Mp: 62item drop - OK
+Type: WEAPON, Durability: 0, Cost: 0, Phisical damage: 78, Magical damage: 58, Critical damage: 262item drop - OK
 [
 (Type: WEAPON, Durability: 0, Cost: 0, Phisical damage: 41, Magical damage: 67, Critical damage: 34)
-(Type: ARMOR, Durability: 0, Cost: 0, defence: 0, phisicalResistense: 29, magicResistense: 4)
-(Type: SCROLL, Durability: 0, Cost: 0, Phisical damage: 64, Magical damage: 5, Spacial: FIRE)
-(Type: SCROLL, Durability: 0, Cost: 0, Phisical damage: 81, Magical damage: 27, Spacial: FROST)
+(Type: WEAPON, Durability: 0, Cost: 0, Phisical damage: 0, Magical damage: 69, Critical damage: 124)
+(Type: ARMOR, Durability: 0, Cost: 0, defence: 64, phisicalResistense: 5, magicResistense: 5)
+(Type: ELIK, Durability: 0, Cost: 0, Give HP: 81, Give Xp: 27, Give Mp: 61)
+(Type: SCROLL, Durability: 0, Cost: 0, Phisical damage: 91, Magical damage: 95, Spacial: ELICTRICITY)
+(Type: SCROLL, Durability: 0, Cost: 0, Phisical damage: 27, Magical damage: 36, Spacial: FROST)
 ]
 ****************************
 item deleted - OK
 [
 (Type: WEAPON, Durability: 0, Cost: 0, Phisical damage: 41, Magical damage: 67, Critical damage: 34)
-(Type: SCROLL, Durability: 0, Cost: 0, Phisical damage: 64, Magical damage: 5, Spacial: FIRE)
-(Type: SCROLL, Durability: 0, Cost: 0, Phisical damage: 81, Magical damage: 27, Spacial: FROST)
+(Type: ARMOR, Durability: 0, Cost: 0, defence: 64, phisicalResistense: 5, magicResistense: 5)
+(Type: ELIK, Durability: 0, Cost: 0, Give HP: 81, Give Xp: 27, Give Mp: 61)
+(Type: SCROLL, Durability: 0, Cost: 0, Phisical damage: 91, Magical damage: 95, Spacial: ELICTRICITY)
+(Type: SCROLL, Durability: 0, Cost: 0, Phisical damage: 27, Magical damage: 36, Spacial: FROST)
 ]
 ****************************
 Empty item
