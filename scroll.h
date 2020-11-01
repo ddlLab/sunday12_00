@@ -47,4 +47,35 @@ public:
     virtual ~eFrostScroll()                  =default;
 };
 
+//---------------------------------------------------------------
 
+class eElictricityScroll : public eScroll
+{
+public:
+    eElictricityScroll();
+    virtual ~eElictricityScroll()             =default;
+};
+//---------------------------------------------------------------
+
+class ePoisonScroll : public eScroll
+{
+public:
+    ePoisonScroll();
+    virtual ~ePoisonScroll()                  =default;
+};
+//---------------------------------------------------------------
+
+class eDarkScroll : public eScroll
+{
+public:
+    eDarkScroll();
+    virtual ~eDarkScroll()                    =default;
+};
+//---------------------------------------------------------------
+class eHealScroll : public eScroll
+{
+public:
+    eHealScroll();
+    virtual ~eHealScroll()                    =default;
+};
+//---------------------------------------------------------------
