@@ -12,9 +12,9 @@ using std::cout;
 int main()
 {
     eInventory invenory;
-    invenory.Add(new eWeapon());
-    invenory.Add(new eWeapon());
-    invenory.Add(new eWeapon());
+    invenory.Add(new eKnife());
+    invenory.Add(new eSword());
+    invenory.Add(new eAx());
     invenory.Add(new eArmor());
     invenory.Add(new eElik());
     invenory.Add(new eFireScroll());
