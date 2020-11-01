@@ -1,5 +1,5 @@
 #include "scroll.h"
-
+#include <windows.h>
 static string ToString(eScrollSpacial);
 
 //---------------------------------------------------------------

@@ -1,5 +1,5 @@
 #include "item_slot.h"
-
+#include <windows.h>
 
 string ToString(eSlotTypes _type)
 {

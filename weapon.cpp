@@ -1,5 +1,5 @@
 #include "weapon.h"
-
+#include <windows.h>
 static string ToString(eWeaponSpacial);
 
 

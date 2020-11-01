@@ -1,5 +1,5 @@
 #include "elix.h"
-
+#include <windows.h>
 static string ToString(eElikSpacial);
 
 
