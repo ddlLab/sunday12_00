@@ -1,5 +1,5 @@
 #include "elix.h"
-
+#include <windows.h>
 //---------------------------------------------------------------
 eElik::eElik()
 :eItemSlot(eSlotTypes::ELIK)

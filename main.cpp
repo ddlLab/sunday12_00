@@ -13,9 +13,7 @@ int main()
 {
     eInventory invenory;
     invenory.Add(new eWeapon());
-    invenory.Add(new eWeapon());
-    invenory.Add(new eWeapon());
-    invenory.Add(new eArmor());
+    invenory.Add(new eHevyArmor());
     invenory.Add(new eElik());
     invenory.Add(new eFireScroll());
     invenory.Add(new eFrostScroll());

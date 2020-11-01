@@ -1,5 +1,5 @@
 #include "weapon.h"
-
+#include <windows.h>
 //---------------------------------------------------------------
 eWeapon::eWeapon()
 :eItemSlot(eSlotTypes::WEAPON)
