@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Tri.h"
+#include "item_slot.h"
 #include <vector>
 
 using std::vector;

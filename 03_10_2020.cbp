@@ -32,15 +32,20 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="Tri.cpp" />
-		<Unit filename="Tri.h" />
+		<Unit filename="armor.cpp" />
+		<Unit filename="armor.h" />
+		<Unit filename="elix.cpp" />
+		<Unit filename="elix.h" />
 		<Unit filename="inventory.cpp" />
 		<Unit filename="inventory.h" />
+		<Unit filename="item_slot.cpp" />
+		<Unit filename="item_slot.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="scroll.cpp" />
+		<Unit filename="scroll.h" />
+		<Unit filename="weapon.cpp" />
+		<Unit filename="weapon.h" />
 		<Extensions>
-			<code_completion />
-			<envvars />
-			<debugger />
 			<lib_finder disable_auto="1" />
 		</Extensions>
 	</Project>

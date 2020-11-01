@@ -1,4 +1,8 @@
 #include "inventory.h"
+#include "elix.h"
+#include "weapon.h"
+#include "armor.h"
+#include "scroll.h"
 #include <iostream>
 #include <fstream>
 
@@ -13,8 +17,8 @@ int main()
     invenory.Add(new eWeapon());
     invenory.Add(new eArmor());
     invenory.Add(new eElik());
-    invenory.Add(new eScroll());
-    invenory.Add(new eScroll());
+    invenory.Add(new eFireScroll());
+    invenory.Add(new eFrostScroll());
     std::ofstream log("log3.txt");
     log<<invenory.Dump();
     log<<"****************************"<<endl;
