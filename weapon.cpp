@@ -24,27 +24,33 @@ string eWeapon::Dump() const
 }
 eSword::eSword()
 : eWeapon(eWeaponSpacial::SWORD,
-          rand()%100,rand()%100+50)
+          rand()%100,
+          rand()%100+50)
 {}
 eKnife::eKnife()
 : eWeapon(eWeaponSpacial::KNIFE,
-          rand()%50,rand()%50+50)
+          rand()%50,
+          rand()%50+50)
 {}
 ePickaxe::ePickaxe()
 : eWeapon(eWeaponSpacial::PICKAXE,
-          rand()%80,rand()%80+50)
+          rand()%80,
+          rand()%80+50)
 {}
 eAx::eAx()
 : eWeapon(eWeaponSpacial::AX,
-          rand()%85,rand()%85+50)
+          rand()%85,
+          rand()%85+50)
 {}
 eMusket::eMusket()
 : eWeapon(eWeaponSpacial::MUSKET,
-          rand()%100,rand()%100+50)
+          rand()%100,
+          rand()%100+50)
 {}
 eCrossbow::eCrossbow()
 : eWeapon(eWeaponSpacial::CROSSBOW,
-          rand()%100,rand()%100+50)
+          rand()%100,
+          rand()%100+50)
 {}
 string ToString(eWeaponSpacial _spacial)
 {
