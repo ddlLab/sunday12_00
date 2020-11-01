@@ -12,11 +12,19 @@ using std::cout;
 int main()
 {
     eInventory invenory;
-    invenory.Add(new eWeapon());
+    invenory.Add(new eKnife());
+    invenory.Add(new eSword());
+    invenory.Add(new eAx());
     invenory.Add(new eHevyArmor());
-    invenory.Add(new eElik());
+    invenory.Add(new eExpElik());
+    invenory.Add(new eManaElik());
+    invenory.Add(new eHealElik());
     invenory.Add(new eFireScroll());
     invenory.Add(new eFrostScroll());
+    invenory.Add(new eElictricityScroll());
+    invenory.Add(new ePoisonScroll());
+    invenory.Add(new eDarkScroll());
+    invenory.Add(new eHealScroll());
     std::ofstream log("log3.txt");
     log<<invenory.Dump();
     log<<"****************************"<<endl;

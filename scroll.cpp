@@ -33,6 +33,26 @@ eFrostScroll::eFrostScroll()
           rand()%7000)
 {}
 
+eElictricityScroll::eElictricityScroll()
+: eScroll(eScrollSpacial::ELICTRICITY,
+          rand()%4000)
+{}
+
+ePoisonScroll::ePoisonScroll()
+: eScroll(eScrollSpacial::POISON,
+          rand()%1000)
+{}
+
+eDarkScroll::eDarkScroll()
+: eScroll(eScrollSpacial::DARK,
+          rand()%8000)
+{}
+
+eHealScroll::eHealScroll()
+: eScroll(eScrollSpacial::HEAL,
+          rand()%9000)
+{}
+
 //---------------------------------------------------------------
 string ToString(eScrollSpacial _spacial)
 {
