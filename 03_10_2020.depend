@@ -42,13 +42,17 @@
 	"Tri.h"
 	<vector>
 
-1603622132 source:d:\Репоситорий\main.cpp
+1604782077 source:d:\Репоситорий\main.cpp
 	"inventory.h"
+	"elix.h"
+	"weapon.h"
+	"armor.h"
+	"scroll.h"
 	<iostream>
 	<fstream>
 
-1603621987 d:\Репоситорий\inventory.h
-	"Tri.h"
+1604226861 d:\Репоситорий\inventory.h
+	"item_slot.h"
 	<vector>
 
 1603621987 d:\Репоситорий\tri.h
@@ -127,4 +131,43 @@
 
 1604225946 f:\c++\sunday_1200\scroll.h
 	"item_slot.h"
+
+1603625029 source:d:\Репоситорий\inventory.cpp
+	"inventory.h"
+
+1604226862 d:\Репоситорий\item_slot.h
+	<sstream>
+	<string>
+
+1604782077 source:d:\Репоситорий\armor.cpp
+	"armor.h"
+	<windows.h>
+
+1604782077 d:\Репоситорий\armor.h
+	"item_slot.h"
+
+1604231578 source:d:\Репоситорий\elix.cpp
+	"elix.h"
+	<windows.h>
+
+1604231578 d:\Репоситорий\elix.h
+	"item_slot.h"
+
+1604231578 source:d:\Репоситорий\item_slot.cpp
+	"item_slot.h"
+	<windows.h>
+
+1604231578 d:\Репоситорий\weapon.h
+	"item_slot.h"
+
+1604231578 d:\Репоситорий\scroll.h
+	"item_slot.h"
+
+1604231578 source:d:\Репоситорий\scroll.cpp
+	"scroll.h"
+	<windows.h>
+
+1604231578 source:d:\Репоситорий\weapon.cpp
+	"weapon.h"
+	<windows.h>
 

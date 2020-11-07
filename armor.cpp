@@ -38,5 +38,15 @@ string ToString(eArmorSpacial _spacial)
     return "INVALID";
 }
 eHevyArmor :: eHevyArmor()
-:eArmor(eArmorSpacial::HEAVY,rand()%100,rand()%1000)
+:eArmor(eArmorSpacial::HEAVY,0,rand()%1000)
 {}
+eMediumArmor :: eMediumArmor()
+:eArmor(eArmorSpacial::MEDIUM,rand()%10,rand()%100)
+{}
+eLightArmor :: eLightArmor()
+:eArmor(eArmorSpacial::LIGHT,rand()%100,rand()%10)
+{}
+eMagicArmor :: eMagicArmor()
+:eArmor(eArmorSpacial::MAGIC,rand()%1000,0)
+{}
+

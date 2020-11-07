@@ -16,6 +16,9 @@ int main()
     invenory.Add(new eSword());
     invenory.Add(new eAx());
     invenory.Add(new eHevyArmor());
+    invenory.Add(new eMediumArmor());
+    invenory.Add(new eLightArmor());
+    invenory.Add(new eMagicArmor());
     invenory.Add(new eExpElik());
     invenory.Add(new eManaElik());
     invenory.Add(new eHealElik());
