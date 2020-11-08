@@ -4,6 +4,7 @@
 #include "armor.h"
 #include "scroll.h"
 #include "fabric_scroll.h"
+#include "fabric_elik.h"
 #include <iostream>
 #include <fstream>
 
@@ -18,6 +19,13 @@ int main()
         eScroll* scroll = scrollFabric.Make();
         cout<<i<<"\t"<<scroll->Dump()<<endl;
         delete scroll;
+    }
+    eFabricElik elikFabric;
+    for(int i=0;i<100;++i)
+    {
+        eElik* elik = elikFabric.Make();
+        cout<<i<<"\t"<<elik->Dump()<<endl;
+        delete elik;
     }
 /*
     eInventory invenory;
