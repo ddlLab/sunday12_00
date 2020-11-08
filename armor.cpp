@@ -29,15 +29,15 @@ string ToString(eArmorSpacial _spacial)
 {
     switch(_spacial)
     {
-       case eArmorSpacial::INVALID:         return "INVALID";
-       case eArmorSpacial::HEAVY:           return "HEAVY";
-       case eArmorSpacial::MEDIUM:          return "MEDIUM";
-       case eArmorSpacial::LIGHT:           return "LIGHT";
-       case eArmorSpacial::MAGIC:           return "MAGIC";
+       case eArmorSpacial::INVALID:                return "INVALID";
+       case eArmorSpacial::HEAVY:                  return "HEAVY";
+       case eArmorSpacial::MEDIUM:                 return "MEDIUM";
+       case eArmorSpacial::LIGHT:                  return "LIGHT";
+       case eArmorSpacial::MAGIC:                  return "MAGIC";
     }
     return "INVALID";
 }
-eHevyArmor :: eHevyArmor()
+eHeavyArmor :: eHeavyArmor()
 :eArmor(eArmorSpacial::HEAVY,0,rand()%1000)
 {}
 eMediumArmor :: eMediumArmor()

@@ -1,5 +1,6 @@
 #include "fabric_scroll.h"
 #include "scroll.h"
+#include "windows.h"
 
 eFabricScroll::eFabricScroll(float _probabilityFire       ,
                              float _probabilityFrost      ,

@@ -139,11 +139,11 @@
 	<sstream>
 	<string>
 
-1604782077 source:d:\Репоситорий\armor.cpp
+1604833827 source:d:\Репоситорий\armor.cpp
 	"armor.h"
 	<windows.h>
 
-1604782077 d:\Репоситорий\armor.h
+1604833945 d:\Репоситорий\armor.h
 	"item_slot.h"
 
 1604231578 source:d:\Репоситорий\elix.cpp
@@ -170,4 +170,11 @@
 1604231578 source:d:\Репоситорий\weapon.cpp
 	"weapon.h"
 	<windows.h>
+
+1604833716 source:d:\Репоситорий\fabric_armor.cpp
+	"fabric_armor.h"
+	"armor.h"
+	"windows.h"
+
+1604833712 d:\Репоситорий\fabric_armor.h
 

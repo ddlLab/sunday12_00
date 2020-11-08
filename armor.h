@@ -28,11 +28,11 @@ protected:
     const eArmorSpacial    spacial             =   eArmorSpacial::INVALID;
 };
 
-class eHevyArmor : public eArmor
+class eHeavyArmor : public eArmor
 {
 public:
-    eHevyArmor();
-    virtual ~eHevyArmor()                   =default;
+    eHeavyArmor();
+    virtual ~eHeavyArmor()                   =default;
 };
 class eMediumArmor : public eArmor
 {

@@ -4,6 +4,7 @@
 #include "armor.h"
 #include "scroll.h"
 #include "fabric_scroll.h"
+#include "fabric_armor.h"
 #include <iostream>
 #include <fstream>
 
@@ -12,12 +13,12 @@ using std::cout;
 
 int main()
 {
-    eFabricScroll scrollFabric;
+    eFabricArmor armorFabric;
     for(int i=0;i<100;++i)
     {
-        eScroll* scroll = scrollFabric.Make();
-        cout<<i<<"\t"<<scroll->Dump()<<endl;
-        delete scroll;
+        eArmor* armor = armorFabric.Make();
+        cout<<i<<"\t"<<armor->Dump()<<endl;
+        delete armor;
     }
 /*
     eInventory invenory;
