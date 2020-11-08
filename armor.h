@@ -32,5 +32,23 @@ class eHevyArmor : public eArmor
 {
 public:
     eHevyArmor();
-    virtual ~eHevyArmor()                  =default;
+    virtual ~eHevyArmor()                   =default;
+};
+class eMediumArmor : public eArmor
+{
+public:
+    eMediumArmor();
+    virtual ~eMediumArmor()                 =default;
+};
+class eLightArmor : public eArmor
+{
+public:
+    eLightArmor();
+    virtual ~eLightArmor()                  =default;
+};
+class eMagicArmor : public eArmor
+{
+public:
+    eMagicArmor();
+    virtual ~eMagicArmor()                  =default;
 };
