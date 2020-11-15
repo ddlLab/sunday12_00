@@ -1,12 +1,5 @@
 #include "inventory.h"
-#include "elix.h"
-#include "weapon.h"
-#include "armor.h"
-#include "scroll.h"
-#include "fabric_scroll.h"
-#include "fabric_armor.h"
-#include "fabric_weapon.h"
-#include "fabric_elik.h"
+#include "fabric_fabric.h"
 #include <iostream>
 #include <fstream>
 
@@ -15,35 +8,15 @@ using std::cout;
 
 int main()
 {
- /*   eFabricScroll scrollFabric;
+
+    eFabricFabric Fabric;
     for(int i=0;i<100;++i)
     {
-        eScroll* scroll = scrollFabric.Make();
-        cout<<i<<"\t"<<scroll->Dump()<<endl;
-        delete scroll;
+        eItemSlot* item = Fabric.Make();
+        cout<<i<<"\t"<<item->Dump()<<endl;
+        delete item;
     }
-*/
-     eFabricWeapon weaponFabric;
-    for(int i=0;i<100;++i)
-    {
-        eWeapon* weapon = weaponFabric.Make();
-        cout<<i<<"\t"<<weapon->Dump()<<endl;
-        delete weapon;
-    }
-    eFabricElik elikFabric;
-    for(int i=0;i<100;++i)
-    {
-        eElik* elik = elikFabric.Make();
-        cout<<i<<"\t"<<elik->Dump()<<endl;
-        delete elik;
-    }
-	eFabricArmor armorFabric;
-    for(int i=0;i<100;++i)
-    {
-        eArmor* armor = armorFabric.Make();
-        cout<<i<<"\t"<<armor->Dump()<<endl;
-        delete armor;
-    }
+
 /*
     eInventory invenory;
     invenory.Add(new eKnife());

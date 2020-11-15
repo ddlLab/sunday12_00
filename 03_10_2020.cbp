@@ -36,8 +36,16 @@
 		<Unit filename="armor.h" />
 		<Unit filename="elix.cpp" />
 		<Unit filename="elix.h" />
+		<Unit filename="fabric_armor.cpp" />
+		<Unit filename="fabric_armor.h" />
+		<Unit filename="fabric_elik.cpp" />
+		<Unit filename="fabric_elik.h" />
+		<Unit filename="fabric_fabric.cpp" />
+		<Unit filename="fabric_fabric.h" />
 		<Unit filename="fabric_scroll.cpp" />
 		<Unit filename="fabric_scroll.h" />
+		<Unit filename="fabric_weapon.cpp" />
+		<Unit filename="fabric_weapon.h" />
 		<Unit filename="inventory.cpp" />
 		<Unit filename="inventory.h" />
 		<Unit filename="item_slot.cpp" />
